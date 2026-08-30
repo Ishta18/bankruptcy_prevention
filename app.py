@@ -8,7 +8,7 @@ xgb_model = joblib.load('xgb_model.joblib')
 scaler = joblib.load('scaler.joblib')
 
 feature_cols = ['industrial_risk', ' management_risk', ' financial_flexibility',
-       ' credibility', ' competitiveness', ' operating_risk', ' class']
+       ' credibility', ' competitiveness', ' operating_risk']
 
 st.write("Enter the risk factors below to predict the likelihood of bankruptcy.")
 
